@@ -86,3 +86,10 @@ Student users:
   - Marc Longe: marc.longe@carleton.ca
   - Francois Boulangerie: francois.boulangerie@carleton.ca
   - Freddy Baker: freddy.bakery@carleton.ca
+
+  Collaborators
+==========
+  - Zayd Bille
+  - Philip Klostermann
+  - Yanzhe Zhang
+  - Xin Rao
