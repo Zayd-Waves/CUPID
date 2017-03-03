@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProfileDetailsForm</class>
+ <widget class="QFrame" name="ProfileDetailsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cuPID - Student Profile</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Edit Profile</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>753</width>
+        <height>6394</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Question 1</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="cBq2b">
+            <property name="text">
+             <string>B) Batman, who saves Gotham with his trusty partner</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="cBq2c">
+            <property name="text">
+             <string>C) One of the Fantastic Four who protect people with their closest allies</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="cBq2d">
+            <property name="text">
+             <string>D) A member of the Justice League who saves the world with a legion of superheros.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="cBq2a">
+            <property name="text">
+             <string>A) Superman who protects the world by himself</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Which superheroes would you most like to have in your group?</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="18" column="0">
+        <widget class="QGroupBox" name="groupBox_16">
+         <property name="title">
+          <string>Question 8</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_18">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>Would you like your group members to be available to work on the project during the
+reading week?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_18">
+            <property name="text">
+             <string>A) Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_19">
+            <property name="text">
+             <string>B) No</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QGroupBox" name="groupBox_12">
+         <property name="title">
+          <string>Question 6</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_14">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string> I need my teammates to be available on weekends on these days.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_10">
+            <property name="text">
+             <string>B) Sunday</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_9">
+            <property name="text">
+             <string>A) Saturday</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_56">
+            <property name="text">
+             <string>C) Not at all</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QRadioButton" name="radioButton_11">
+            <property name="text">
+             <string>D) Any time on the weekend</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="27" column="0">
+        <widget class="QGroupBox" name="groupBox_25">
+         <property name="title">
+          <string>Question 13</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_27">
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_46">
+            <property name="text">
+             <string>B) I enter a shop and ask for directions.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_45">
+            <property name="text">
+             <string>A) I’ve mapped out the route before we left, so we won’t get lost in the first place.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_26">
+            <property name="text">
+             <string>You’re in a new city with some friends and you all get lost. What do you do? </string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_47">
+            <property name="text">
+             <string>C) I continue wandering along with the group.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_48">
+            <property name="text">
+             <string>D) I ditch my friends and try to find the way on my own.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QGroupBox" name="groupBox_10">
+         <property name="title">
+          <string>Question 5</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_18">
+            <property name="text">
+             <string>B) 3 to 4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_17">
+            <property name="text">
+             <string>A) 1 to 2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>How many days a week do you want your teammates to be available to meet?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_19">
+            <property name="text">
+             <string>C) 5 to 6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_20">
+            <property name="text">
+             <string>D) every day</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QGroupBox" name="groupBox_8">
+         <property name="title">
+          <string>Question 4</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string> If your teammates are late for a meeting what do you want them to do?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_10">
+            <property name="text">
+             <string>B) They should wait for the next bus.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_9">
+            <property name="text">
+             <string>A) They should take the first taxi they see.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_11">
+            <property name="text">
+             <string>C) They should run to the train station, because it might be faster.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_12">
+            <property name="text">
+             <string>D) They can just head home, no need to be rushing places.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="15" column="0">
+        <widget class="QGroupBox" name="groupBox_13">
+         <property name="title">
+          <string>Question 7</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_15">
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_13">
+            <property name="text">
+             <string>B) I’m pretty good.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_12">
+            <property name="text">
+             <string>A) I’m a beginner. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>How would you rate your proficiency in programming?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_14">
+            <property name="text">
+             <string>C) I’m fairly adept.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_15">
+            <property name="text">
+             <string>D) I’m second to none.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QGroupBox" name="groupBox_9">
+         <property name="title">
+          <string>Question 5</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>How many days a week are you available to meet?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_14">
+            <property name="text">
+             <string>B) 3 to 4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_13">
+            <property name="text">
+             <string>A) 1 to 2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_15">
+            <property name="text">
+             <string>C) 5 to 6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_16">
+            <property name="text">
+             <string>D) every day</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>Question 2</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Describe yourself:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="rBq3b">
+            <property name="text">
+             <string>B) If someone asks my opinion then I gladly share it.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="rBq3a">
+            <property name="text">
+             <string>A) If I have an idea then other people have to know.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="rBq3c">
+            <property name="text">
+             <string>C) I keep good ideas to myself.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_1">
+         <property name="title">
+          <string>Question 1</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="rBq1b">
+            <property name="text">
+             <string>B) Are you Batman and save Gotham with your trusty partner?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="rBq1d">
+            <property name="text">
+             <string>D) Are you part of the Justice League and save the world with your legion of superheroes?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Say you’re a superhero.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="rBq1a">
+            <property name="text">
+             <string>A) Are you Superman and decide to protect the world yourself?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="rBq1c">
+            <property name="text">
+             <string>C) Are you one of the Fantastic Four and protect people with your closest allies?</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0" rowspan="2">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Question 2</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Describe your teammates</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="cBq4b">
+            <property name="text">
+             <string>B) If someone asks their opinion on something then they gladly share it. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="cBq4a">
+            <property name="text">
+             <string>A) If someone has an idea they’re dying to tell the rest.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="cBq4c">
+            <property name="text">
+             <string>C) They’d rather not share their ideas, because others must surely have better ones.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+         <zorder>label_5</zorder>
+         <zorder>cBq4a</zorder>
+         <zorder>cBq4b</zorder>
+         <zorder>cBq4c</zorder>
+        </widget>
+       </item>
+       <item row="16" column="0">
+        <widget class="QGroupBox" name="groupBox_14">
+         <property name="title">
+          <string>Question 7</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_16">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string> What level(s) of proficiency in programming would you accept for your teammates?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_22">
+            <property name="text">
+             <string>B) Pretty good.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_23">
+            <property name="text">
+             <string>C) Fairly adept.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_21">
+            <property name="text">
+             <string>A) Beginner.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_24">
+            <property name="text">
+             <string>D) Second to none.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="23" column="0">
+        <widget class="QGroupBox" name="groupBox_21">
+         <property name="title">
+          <string>Question 11</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_23">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_22">
+            <property name="text">
+             <string>You have an assignment due. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_33">
+            <property name="text">
+             <string>A) I start it two weeks before the deadline.  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_34">
+            <property name="text">
+             <string>B) I start it two days before the deadline. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_35">
+            <property name="text">
+             <string>C) I start it the day of and pull it off with my amazing skills. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_36">
+            <property name="text">
+             <string>D) There was an assignment due?</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="25" column="0">
+        <widget class="QGroupBox" name="groupBox_23">
+         <property name="title">
+          <string>Question 12</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_25">
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_29">
+            <property name="text">
+             <string>B) If I miss a lecture I watch the video if there is one.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_28">
+            <property name="text">
+             <string>A) I go to every lecture.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_30">
+            <property name="text">
+             <string>C) I try not to miss too many lectures. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_24">
+            <property name="text">
+             <string>What sounds most like you?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_31">
+            <property name="text">
+             <string>D) We had class today?</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="22" column="0">
+        <widget class="QGroupBox" name="groupBox_20">
+         <property name="title">
+          <string>Question 10</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_22">
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_31">
+            <property name="text">
+             <string>C) They should just ignore it and hope for the best.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_30">
+            <property name="text">
+             <string>B) They should point it out to the rest and see what should be done.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_29">
+            <property name="text">
+             <string>A) They should delete the old diagram and create a new one.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_21">
+            <property name="text">
+             <string>There’s one hour left before the project deadline and your teammates discover an
+inconsistency between diagrams and text in your deliverable. What do you think
+they should do?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_32">
+            <property name="text">
+             <string>D) They shouldn’t be looking at it an hour before it’s due.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="21" column="0">
+        <widget class="QGroupBox" name="groupBox_19">
+         <property name="title">
+          <string>Question 10</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_21">
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_25">
+            <property name="text">
+             <string>B) I point it out to the others to see what we should do.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_24">
+            <property name="text">
+             <string>A) I delete the old diagram and create a new one.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>There is one hour left before the project deadline and you discover an inconsistency
+between diagrams and text in your deliverable.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_26">
+            <property name="text">
+             <string>C) I ignore it and hope no one else spots it.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_27">
+            <property name="text">
+             <string>D) Why would I be looking at it an hour before it’s due?</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="20" column="0">
+        <widget class="QGroupBox" name="groupBox_18">
+         <property name="title">
+          <string>Question 9</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_20">
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_26">
+            <property name="text">
+             <string>B) The are okay presenting in front of small groups of people.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_25">
+            <property name="text">
+             <string>A) They shine in the backstage. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_27">
+            <property name="text">
+             <string>C) They are very comfortable in front of people.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>Describe your ideal teammates when it comes to presenting in front of people.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_28">
+            <property name="text">
+             <string>D) They belong on the stage.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="19" column="0">
+        <widget class="QGroupBox" name="groupBox_17">
+         <property name="title">
+          <string>Question 9</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_19">
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_21">
+            <property name="text">
+             <string>B) I’m okay presenting in front of small groups of people.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_20">
+            <property name="text">
+             <string>A) I shine in the backstage.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_22">
+            <property name="text">
+             <string>C) I am very comfortable in front of people. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>Describe yourself when it comes to presenting in front of people.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_23">
+            <property name="text">
+             <string>D) I belong on the stage.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="24" column="0">
+        <widget class="QGroupBox" name="groupBox_22">
+         <property name="title">
+          <string>Question 11</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_24">
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_39">
+            <property name="text">
+             <string>C) the day of and pull it off with their amazing skills.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_23">
+            <property name="text">
+             <string>You would like your group members to start their assignment...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_37">
+            <property name="text">
+             <string>A) two weeks before the deadline.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_38">
+            <property name="text">
+             <string>B) two days before the deadline.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_40">
+            <property name="text">
+             <string>D) whenever. Assignments don’t really count.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="30" column="0">
+        <widget class="QGroupBox" name="groupBox_28">
+         <property name="title">
+          <string>Question 14</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_30">
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_37">
+            <property name="text">
+             <string>B) They should have a calm conversation with me and try to see both sides.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_36">
+            <property name="text">
+             <string>A) They should buy me lunch to make up for it.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_38">
+            <property name="text">
+             <string>C) They can just ignore me. I’ll get over it.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_29">
+            <property name="text">
+             <string>You are mad at your friends for ditching you in a new city while you were lost.
+What do you think they should do?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_39">
+            <property name="text">
+             <string>D) It’s okay if they get mad at me for being mad at them.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>Question 3</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>What is your GPA ?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_2">
+            <property name="text">
+             <string>B) B</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton">
+            <property name="text">
+             <string>A) A</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_3">
+            <property name="text">
+             <string>C) C</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_4">
+            <property name="text">
+             <string>D) D</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="31" column="0">
+        <widget class="QGroupBox" name="groupBox_29">
+         <property name="title">
+          <string>Question 15</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_31">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_30">
+            <property name="text">
+             <string>Describe yourself.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_40">
+            <property name="text">
+             <string>A) I excel when given clear guidelines for a task.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_41">
+            <property name="text">
+             <string>B) I like to follow the rules but I can think for myself. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_42">
+            <property name="text">
+             <string>C) I prefer to do my own thing.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_43">
+            <property name="text">
+             <string>D) I do best when I can make my own rules.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="title">
+          <string>Question 3</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>What GPA(s) would you like your teammates to have?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_2">
+            <property name="text">
+             <string>B) B</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox">
+            <property name="text">
+             <string>A) A</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_3">
+            <property name="text">
+             <string>C) C</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_4">
+            <property name="text">
+             <string>D) D</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="17" column="0">
+        <widget class="QGroupBox" name="groupBox_15">
+         <property name="title">
+          <string>Question 8</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_17">
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_16">
+            <property name="text">
+             <string>A) Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>Are you available to work on the project during the reading week?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_17">
+            <property name="text">
+             <string>B) No</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="title">
+          <string>Question 4</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>You’re running late for a meeting and just missed your bus. What do you do?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_6">
+            <property name="text">
+             <string>B) I wait for the next bus.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_5">
+            <property name="text">
+             <string>A) I jump into the first taxi I see.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_7">
+            <property name="text">
+             <string>C) I run to the train station, because the train might be faster.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_8">
+            <property name="text">
+             <string>D) I call it a day and head home.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QGroupBox" name="groupBox_11">
+         <property name="title">
+          <string>Question 6</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>On what days are you available on the weekend?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_7">
+            <property name="text">
+             <string>C) Not at all.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_5">
+            <property name="text">
+             <string>A) Saturday</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_6">
+            <property name="text">
+             <string>B) Sunday </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_8">
+            <property name="text">
+             <string>D) Any time on the weekend</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="26" column="0">
+        <widget class="QGroupBox" name="groupBox_24">
+         <property name="title">
+          <string>Question 12</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_26">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_25">
+            <property name="text">
+             <string>What attitude do you think your teammates should have?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_42">
+            <property name="text">
+             <string>B) If they miss a lecture, they should watch the video to catch up.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_41">
+            <property name="text">
+             <string>A) They should never miss a lecture.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_43">
+            <property name="text">
+             <string>C) It’s alright to miss the odd lecture.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_44">
+            <property name="text">
+             <string>D) I couldn’t care less.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="28" column="0">
+        <widget class="QGroupBox" name="groupBox_26">
+         <property name="title">
+          <string>Question 13</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_28">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_27">
+            <property name="text">
+             <string>You’re in a new city with some friends and you all get lost. What do you want
+your friends to do?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_51">
+            <property name="text">
+             <string>C) They can just keep wandering along with the group.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_50">
+            <property name="text">
+             <string>B) Someone should go into a shop and ask or directions.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_49">
+            <property name="text">
+             <string>A) They’d better have mapped the route so we don’t get lost in the first place.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_52">
+            <property name="text">
+             <string>D) They should ditch the rest and find their own way.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="29" column="0">
+        <widget class="QGroupBox" name="groupBox_27">
+         <property name="title">
+          <string>Question 14</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_29">
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_32">
+            <property name="text">
+             <string>A) You buy them lunch to make up for it.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_34">
+            <property name="text">
+             <string>C) You ignore them and just move on.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_33">
+            <property name="text">
+             <string>B) You calmly try to explain to them why you left.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_28">
+            <property name="text">
+             <string>Your friends are mad at you for ditching them in a new city while
+you were lost. What do you do?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_35">
+            <property name="text">
+             <string>D) You get mad at them for being mad at you.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="32" column="0">
+        <widget class="QGroupBox" name="groupBox_30">
+         <property name="title">
+          <string>Question 15</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_32">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_31">
+            <property name="text">
+             <string>Describe your teammates.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_45">
+            <property name="text">
+             <string>B) They like to follow the rules but can also think for themselves.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_44">
+            <property name="text">
+             <string>A) They excel when given clear guidelines for a task.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_46">
+            <property name="text">
+             <string>C) They prefer to do their own thing.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_47">
+            <property name="text">
+             <string>D) They do best when they can make their own rules.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="33" column="0">
+        <widget class="QGroupBox" name="groupBox_31">
+         <property name="title">
+          <string>Question 16</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_33">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_32">
+            <property name="text">
+             <string>Did you know that we only use 10% of our brains at a time? </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="radioButton_49">
+            <property name="text">
+             <string>B) Tell me more!</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_48">
+            <property name="text">
+             <string>A) Oh okay thanks for letting me know. </string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_50">
+            <property name="text">
+             <string>C) Are you sure about that?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_51">
+            <property name="text">
+             <string>D) Where did you find that information? I want to look it up myself.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="35" column="0">
+        <widget class="QGroupBox" name="groupBox_33">
+         <property name="title">
+          <string>Question 17</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_35">
+          <item row="3" column="0">
+           <widget class="QRadioButton" name="radioButton_53">
+            <property name="text">
+             <string>B) Planner </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_34">
+            <property name="text">
+             <string>What role do you feel most suited for? </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QRadioButton" name="radioButton_54">
+            <property name="text">
+             <string>C) Developer</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="radioButton_52">
+            <property name="text">
+             <string>A) Leader </string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QRadioButton" name="radioButton_55">
+            <property name="text">
+             <string>D) System Architect</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="34" column="0">
+        <widget class="QGroupBox" name="groupBox_32">
+         <property name="title">
+          <string>Question 16</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_34">
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_55">
+            <property name="text">
+             <string>C) “Are you sure about that?”</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_54">
+            <property name="text">
+             <string>B) “Tell me more!”</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_53">
+            <property name="text">
+             <string>A) “Oh okay thanks for letting me know.”</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_33">
+            <property name="text">
+             <string>Someone asks your teammate “Did you know that we only use 10% of our brains
+at a time?”. Which response(s) do you think would be most appropriate?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_56">
+            <property name="text">
+             <string>D) “Where did you find that information? I want to look it up myself.”</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="36" column="0">
+        <widget class="QGroupBox" name="groupBox_34">
+         <property name="title">
+          <string>Question 17</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_36">
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_58">
+            <property name="text">
+             <string>B) Planner</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_57">
+            <property name="text">
+             <string>A) Leader </string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_59">
+            <property name="text">
+             <string>C) Developer</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_35">
+            <property name="text">
+             <string>What role(s) would you like your teammates to take on?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBox_60">
+            <property name="text">
+             <string>D) System architect</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
